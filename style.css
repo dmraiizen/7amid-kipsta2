@@ -1,0 +1,37 @@
+* {
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+  }
+h1 {
+    text-align: center;
+    color: rgb(226, 24, 24);
+    max-height: max-content 2000000px;
+    
+}
+h2 { 
+    color: red;
+}
+.themeContainer {
+    position: fixed;
+    top: 0;
+  }
+  .theme {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+  #dark {
+    background: #363636;
+  }
+  #bright {
+    background: white;
+  }
+  .darkTheme {
+    background: #363636;
+    color: white;
+  }
+  .brightTheme {
+    background: #ffffff;
+    color: white;
+  }
